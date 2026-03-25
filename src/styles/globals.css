@@ -3,6 +3,28 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Blue */
+  --blue-100: #7ea4d7;
+  --blue-200: #2c85fc;
+  --blue-330: #2266c1;
+  --blue-400: #0d284c;
+
+  /* Cyan */
+  --cyan-100: #2debfc;
+  --cyan-200: #187d86;
+  --cyan-300: #0e474c;
+
+  /* Gray & White */
+  --white: #ffffff;
+  --gray-100: #e9eaec;
+  --gray-200: #d3d5d9;
+  --gray-300: #93979e;
+  --gray-400: #20242c;
+  --gray-500: #16181d;
+  --gray-600: #14161a;
+  --gray-700: #101216;
+  --gray-800: #0b0c0f;
 }
 
 @theme inline {
@@ -10,6 +32,26 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Custom Palette mapped for Tailwind V4 */
+  --color-blue-100: var(--blue-100);
+  --color-blue-200: var(--blue-200);
+  --color-blue-330: var(--blue-330);
+  --color-blue-400: var(--blue-400);
+
+  --color-cyan-100: var(--cyan-100);
+  --color-cyan-200: var(--cyan-200);
+  --color-cyan-300: var(--cyan-300);
+
+  --color-white: var(--white);
+  --color-gray-100: var(--gray-100);
+  --color-gray-200: var(--gray-200);
+  --color-gray-300: var(--gray-300);
+  --color-gray-400: var(--gray-400);
+  --color-gray-500: var(--gray-500);
+  --color-gray-600: var(--gray-600);
+  --color-gray-700: var(--gray-700);
+  --color-gray-800: var(--gray-800);
 }
 
 @media (prefers-color-scheme: dark) {
