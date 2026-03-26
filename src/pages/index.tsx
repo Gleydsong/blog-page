@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <div className="bg-black align-center justify-center">
+    <div className={`bg-black align-center justify-center ${geistSans.variable} ${geistMono.variable}`}>
       <Header />
     </div>
   );
