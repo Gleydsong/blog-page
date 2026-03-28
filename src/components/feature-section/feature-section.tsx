@@ -52,6 +52,7 @@ export const FeatureSection = () => {
                 alt="Features"
                 width={440}
                 height={330}
+                loading="eager"
                 className="object-contain w-full"
               />
             </div>
