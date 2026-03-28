@@ -17,7 +17,7 @@ export const Layout = ({ children }: LayoutProps) => {
     >
       <Header />
 
-      <main className=" flex-1 flex flex-col mb-12">{children}</main>
+      <main className="flex flex-1 flex-col bg-gray-700 mb-12">{children}</main>
       <Footer />
     </div>
   );

@@ -46,7 +46,7 @@ export const HeroSection = () => {
 
         <div className="relative h-[20rem] hidden md:h-full order-first md:order-last items-center justify-center md:flex lg:flex">
           <Image
-            src="/assets/background-hero.svg"
+            src="/assets/images/background.svg"
             alt="Ilustração com ícones de store, tag e sacola"
             width={200}
             height={400}
