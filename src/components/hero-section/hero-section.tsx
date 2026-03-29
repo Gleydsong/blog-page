@@ -50,6 +50,7 @@ export const HeroSection = () => {
             alt="Ilustração com ícones de store, tag e sacola"
             width={200}
             height={400}
+            priority
             className="h-full w-auto object-contain"
           />
         </div>

@@ -45,6 +45,7 @@ export const CustomerStorySection = () => {
                     src={customerStory.author.avatar}
                     alt={customerStory.author.name}
                     fill
+                    sizes="40px"
                     className="object-cover"
                   />
                 </div>
